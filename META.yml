@@ -1,6 +1,6 @@
 ---
 name: Export-Lexical
-version: 0.0.1
+version: 0.0.2
 author:
   - 'Chris Grau <cgrau@cpan.org>'
 abstract: Lexically scoped subroutine imports
@@ -15,6 +15,6 @@ meta-spec:
 provides:
   Export::Lexical:
     file: lib/Export/Lexical.pm
-    version: 0.0.1
+    version: 0.0.2
 resources:
   license: http://dev.perl.org/licenses/
