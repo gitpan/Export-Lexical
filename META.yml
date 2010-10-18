@@ -1,23 +1,23 @@
 ---
 name: Export-Lexical
-version: 0.0.3
+version: v0.0.4
 author:
   - 'Chris Grau <cgrau@cpan.org>'
 abstract: Lexically scoped subroutine imports
 license: perl
-requires:
-  version: 0
+resources:
+  license: http://dev.perl.org/licenses/
 build_requires:
   Test::Exception: 0
   Test::More: 0
   Test::Warn: 0
-generated_by: Module::Build version 0.280801
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+configure_requires:
+  Module::Build: 0.35
 provides:
   Export::Lexical:
     file: lib/Export/Lexical.pm
-    version: 0.0.3
-resources:
-  license: http://dev.perl.org/licenses/
+    version: v0.0.4
+generated_by: Module::Build version 0.35
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
